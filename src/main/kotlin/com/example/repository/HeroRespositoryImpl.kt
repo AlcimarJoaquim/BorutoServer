@@ -431,7 +431,6 @@ class HeroRespositoryImpl : HeroRepository {
             PREVIOUS_PAGE_KEY to prevPage,
             NEXT_PAGE_KEY to nextPage
         )
-
     }
 
     override suspend fun searchHeroes(name: String?): ApiResponse {
